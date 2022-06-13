@@ -5,13 +5,13 @@ The files in this repository were used to configure the network depicted below
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook files may be used to install only certain pieces of it, such as Filebeat.
 
   - [my-playbook.yml](files/my-playbook.yml)
-  - ansible.cfg
-  - hosts
-  - filebeat-config.yml
-  - filebeat-playbook.yml
-  - metricbeat-config.yml
-  - metricbeat-playbook.yml
-  - elk-playbook.yml
+  - [ansible.cfg](files/ansible.cfg)
+  - [hosts](files/hosts)
+  - [filebeat-config.yml](files/filebeat-config.yml)
+  - [filebeat-playbook.yml](files/filebeat-playbook.yml)
+  - [metricbeat-config.yml](files/metricbeat-config.yml)
+  - [metricbeat-playbook.yml](files/metricbeat-playbook.yml)
+  - [elk-playbook.yml](files/elk-playbook.yml)
   
 
 This document contains the following details:
