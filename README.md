@@ -103,7 +103,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include IPs of the webservers and elk
 - Run the playbook, and navigate to http://(ELK server IP):5601/app/kibana to check that the installation worked as expected.
 
-- yml files proceeded by "playbook" (i.e. *-playbook.yml) and you copy it to /etc/ansible
+- yml files proceeded by "playbook" (i.e. *-playbook.yml) are the playbooks and you copy it to /etc/ansible
 - update the hosts file to make Ansible run the playbook on specified machines.  Machines can be grouped in the Ansible hosts file.  For example, you can have a "webservers" group, and "elk" group.
 - navigate to http://(elk server ip):5601/app/kibana to check the ELK server is running 
 
