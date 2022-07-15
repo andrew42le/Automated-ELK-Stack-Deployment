@@ -1,0 +1,13 @@
+#As part a homework assignment to investigate suspicious losses of a fictional casino...
+
+#task: develop a script that can analyze the employee schedule to easily find the roulette dealer at a specific time
+
+#Design the shell script to accept the following two arguement:
+#one for date (four digits)
+#one for the time
+
+#script:
+
+#!/bin/bash
+echo "find roulette dealer at specific time (hh:mm:ss) AM/PM on MMDD"
+grep $1 $2_Dealer_schedule | awk -F'\t' '{print $1, $3}'
