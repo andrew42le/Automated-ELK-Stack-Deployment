@@ -1,0 +1,12 @@
+#As part a homework assignment to investigate suspicious losses of a fictional casino...
+
+#create a shell script that has the following three arguments:
+#specific time
+#specific date
+#casino game being played
+
+#script
+
+#!/bin/bash
+echo "find dealer by time (hh:mm:ss) AM/PM, date (MMDD), and game (2 = BlackJack, 3 = Roulette, 4 = Texas-Hold-Em)"
+grep $1 $2_Dealer_schedule | awk -F'\t' '{print $1, $'$3'}'
