@@ -2,7 +2,7 @@
 
 #task: develop a script that can analyze the employee schedule to easily find the roulette dealer at a specific time
 
-#Design the shell script to accept the following two arguement:
+#Design the shell script to accept the following two arguments:
 #one for date (four digits)
 #one for the time
 
