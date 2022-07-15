@@ -1,6 +1,6 @@
 #As part a homework assignment to investigate suspicious losses of a fictional casino...
 
-#create a shell script that has the following three arguments:
+#task:  create a shell script that has the following three arguments:
 #specific time
 #specific date
 #casino game being played
